@@ -24,7 +24,7 @@ if (empty($_SESSION['user_id']) && empty($_SESSION['password'])) {
                } else {
                   $pageno = 1;
                }
-               $numOfrecs = 1;
+               $numOfrecs = 5;
                $offset = ($pageno - 1) * $numOfrecs;
                if ($_POST['search']) {
                   $search_key = $_POST['search'];
